@@ -1,0 +1,11 @@
+body {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(15, 50px);
+}
+
+div {
+	background-color: lightgray;
+	display: grid;
+	grid-template-columns: repeat(15, auto);
+}
